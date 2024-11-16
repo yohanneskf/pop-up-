@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contener{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    height: 100vh;
+}
+.submit{
+    background: rgb(225, 218, 218);
+    padding: 10px 50px;
+    border: 0;
+    box-shadow: 1px 1px 3px rgb(111, 104, 104);
+    color: rgb(97, 94, 94);
+    cursor: pointer;
+
+}
+.popup{
+    height: 250px;
+    width: 300px;
+    background: white;
+    position: absolute;
+    padding: 30px;
+    text-align-last: center;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgb(137, 134, 134);
+    transform: translate(-50%,-50%) scale(0);
+    transition: ease 0.5s;
+}
+img{
+    height: 80px;
+    width: 80px;
+    box-shadow:1px 1px 2px rgb(0, 0, 0);
+    margin-top: -50%;
+    border-radius: 50%;
+}
+h1{
+    color: rgb(74, 72, 72);
+    padding:20px 0 ;
+
+}
+p{
+    color: rgb(117, 111, 111);
+}
+.popup button{
+    width: 230px;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+    background: rgb(24, 225, 24);
+    box-shadow: 1px 1px 2px rgb(137, 134, 134);
+    color: white;
+    font-size: 20px;
+}
+.pop{
+    transform: translate(-50%,-50%) scale(1);
+    
+}
